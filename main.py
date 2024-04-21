@@ -27,7 +27,7 @@ def start() -> None:
 sched = BackgroundScheduler()  # подключаем шедулер
 
 sched.add_job(start, "cron", hour="*", minute="1", id="job-1")
-# добавляем задачу на сбор статискики каждый час
+# добавляем задачу на сбор статистики каждый час
 
 sched.add_job(core.send_mail, "cron", hour="*", minute="5", id="job-2")
 # добавляем задачу на отправку email с собранной
