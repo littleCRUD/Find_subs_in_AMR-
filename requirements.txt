@@ -1,0 +1,7 @@
+python-dotenv
+telnetlib
+datetime
+apscheduler
+email
+openpyxl
+smtplib
