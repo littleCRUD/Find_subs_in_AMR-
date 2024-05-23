@@ -1,7 +1,8 @@
-python-dotenv
-telnetlib
-datetime
-apscheduler
-email
-openpyxl
-smtplib
+APScheduler==3.10.4
+et-xmlfile==1.1.0
+openpyxl==3.1.2
+python-dotenv==1.0.1
+pytz==2024.1
+six==1.16.0
+tzdata==2024.1
+tzlocal==5.2
